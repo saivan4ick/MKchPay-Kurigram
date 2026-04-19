@@ -1,6 +1,29 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+
+# Local git worktrees
+.worktrees/
+
+# Secrets and local config
+.env
+passcodes.txt
+admins.txt
+
+# Telegram session artifacts
+*.session
+*.session-journal
+
 *$py.class
 
 # C extensions
